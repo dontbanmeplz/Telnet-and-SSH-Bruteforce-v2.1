@@ -56,7 +56,7 @@ combo_passw = [
 # searching for an existing lists
 try:
 	with open(
-		"list.txt", "r") as iplist:
+		"mfu.txt", "r") as iplist:
 		sfw_combo = iplist.readlines(
 			)
 		sfw_combo = [ip.strip() for ip in sfw_combo]
